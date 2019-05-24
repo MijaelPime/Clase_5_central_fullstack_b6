@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MPA Primeros pasos</title>
+    </head>
+    <body style="background: rgb(135, 170, 222);">
+            
+        <H1>Hola Mundo</H1>
+            
+            <script type="text/javascript">
+                
+                let ingreso1    =   parseFloat(prompt("Ingresa tu Primer ingreso"));
+                let ingreso2    =   parseFloat(prompt("Ingresa tu Segundo ingreso"));
+                let gasto1      =   parseFloat(prompt("Ingresa tu Primer Gasto"));
+                let gasto2      =   parseFloat(prompt("Ingresa tu Segundo Gasto"));
+                let gasto3      =   parseFloat(prompt("Ingresa tu Tercer Gasto"));
+                
+                let ingresostotales = ingreso1+ingreso2
+                let egresostotales  = gasto1+gasto2+gasto3
+                let presupuesto     = ingresostotales - egresostotales
+    alert("El presupuesto con el que cuestas disponible es: "+presupuesto);
+
+            </script>
+    </body>
+</html>
